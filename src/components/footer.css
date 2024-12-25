@@ -1,0 +1,39 @@
+.footer {
+    position: relative;
+    padding: 20px 0;
+    background-color: #333; /* Change to your preferred background color */
+    color: #fff; /* Change to your preferred text color */
+  }
+  
+  .footer_bg {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 100px;
+  }
+  
+
+  
+  .footer_bg_two {
+    background: url("https://media4.giphy.com/media/7hAr7m8m7k3uumlu4G/giphy.gif?cid=ecf05e470z6y7c0tiwboieb3omxgk7aybwmwjk9p9m3ecv28&ep=v1_gifs_gifId&rid=giphy.gif&ct=s") no-repeat center center;
+    width: 180px;
+    height: 150px;
+    background-size: 100%;
+    bottom: 30;
+    left: 15%;
+    position: absolute;
+    animation: myfirst 30s linear infinite;
+  }
+  
+  @keyframes myfirst {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
